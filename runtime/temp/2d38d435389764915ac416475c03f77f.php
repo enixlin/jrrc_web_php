@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:62:"D:\projects\WWW\jrrc_web_php/application/view\login\login.html";i:1492245490;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:62:"D:\projects\WWW\jrrc_web_php/application/view\login\login.html";i:1492584494;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +18,7 @@
 
 <title>欢迎使用国际业务信息查询系统</title>
 </head>
-<body>
+<body >
 
 </body>
 </html>
