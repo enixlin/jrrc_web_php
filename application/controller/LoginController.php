@@ -2,14 +2,18 @@
 
 namespace app\controller;
 
-use think\Controller;
-use app\model;
 use app\model\UserModel as User;
+use think\Controller;
 use think\Request;
 
 class LoginController extends Controller
 {
 
+
+//这是一个测试的文件
+    public function show()
+    {
+    }
 
     public function __construct(Request $request, User $user)
     {
@@ -25,16 +29,10 @@ class LoginController extends Controller
      */
     public function login()
     {
-        // 先通过session用户是否已经登录，
-        if (\session('id') != null) {
-            $this->redirect('/jrrc_web_php/Main/index');
-        } else {
-            // 没有登录，返回登录界面
-            return $this->fetch('login');
-        }
+
+        return $this->fetch('login');
+
     }
-
-
 
 
     public function handle_login($id, $password)
@@ -53,12 +51,19 @@ class LoginController extends Controller
         return $result;
     }
 
+    /**
+     * 获得所有用户的名字
+     * @return false|\PDOStatement|string|\think\Collection
+     */
     public function getAllUsersName()
     {
         $result = $this->User->getAllUserName();
         return $result;
     }
 
+    /**获得所有用户
+     * @return false|\PDOStatement|string|\think\Collection
+     */
     public function getAllUsers()
     {
         $result = $this->User->getAllUsers();
