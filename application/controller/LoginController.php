@@ -6,17 +6,14 @@ use app\model\UserModel as User;
 use think\Controller;
 use think\Request;
 
-class LoginController extends Controller
-{
+class LoginController extends Controller {
 
 
-//这是一个测试的文件
-    public function show()
-    {
+    //这是一个测试的文件
+    public function show() {
     }
 
-    public function __construct(Request $request, User $user)
-    {
+    public function __construct(Request $request, User $user) {
         parent::__construct();
         $this->request = $request;
         $this->User = $user;
@@ -27,16 +24,14 @@ class LoginController extends Controller
     /**
      * @return mixed
      */
-    public function login()
-    {
+    public function login() {
 
         return $this->fetch('login');
 
     }
 
 
-    public function handle_login($id, $password)
-    {
+    public function handle_login($id, $password) {
 
         $result = 0;
         $users = $this->getAllUsers();
@@ -55,8 +50,7 @@ class LoginController extends Controller
      * 获得所有用户的名字
      * @return false|\PDOStatement|string|\think\Collection
      */
-    public function getAllUsersName()
-    {
+    public function getAllUsersName() {
         $result = $this->User->getAllUserName();
         return $result;
     }
@@ -64,14 +58,12 @@ class LoginController extends Controller
     /**获得所有用户
      * @return false|\PDOStatement|string|\think\Collection
      */
-    public function getAllUsers()
-    {
+    public function getAllUsers() {
         $result = $this->User->getAllUsers();
         return $result;
     }
 
-    public function logout()
-    {
+    public function logout() {
         \session(null);
     }
 }

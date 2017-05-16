@@ -4,90 +4,80 @@ namespace app\model;
 
 use think\Model;
 
-class UserModel extends Model
-{
+class UserModel extends Model {
 
+    //设置模型对应的数据库表为：用户表
     protected $name = 'user';
 
-    //protected $id;
-    public  function getAllUsers()
-    {
+    /**
+     * 查询所有用户的信息
+     * @return static
+     */
+    public function getAllUsers() {
         //dump('static call');
-        $user=$this->get(125);
+        $user = $this->all();
         //dump($user);
         return $user;
         //return $user[0]->getData();
     }
 
 
-    public function getAllUserName()
-    {
+    /**
+     * 取得所有用户的用户名复印件
+     * @return static
+     */
+    public function getAllUserName() {
         return $this->field('name,id')->select();
     }
 
-    public function getUserById($id)
-    {
-        $condition['id'] = $id;
-        return $this->where($condition)->select();
 
-    }
-
-    /*
-     * 通过用户编号查询该用户的所有角色
-     *
+    /**
+     * 更新用户信息
+     * @param $user 用户（对象数组）
+     * @return 成功返回 1
      */
-    public function getRoleByUser($UserId)
-    {
-        $codition['id'] = $UserId;
-
-        return $this->table("userRole")->where($conditon)->select();
-
+    public function updateUser($user) {
+        try {
+            foreach ($user as $u) {
+                $this->update($u);
+            }
+            echo "1";
+        } catch (\Exception $e) {
+            echo 'Caught exception: ', $e->getMessage(), "\n";;
+        }
     }
 
 
-
-
-
-    public function addUser($user){
-        try{
-            $this->table('jrrc_user')->insert($user);
+    /**
+     * 添加用户
+     * @param $user 用户
+     * @return 成功返回 1
+     */
+    public function addUser($user) {
+        try {
+            $this->create($user);
             echo "1";
-        }catch(\Exception $e){
-            echo "0";
+        } catch (\Exception $e) {
+            echo 'Caught exception: ', $e->getMessage(), "\n";;
         }
 
     }
 
 
-    public function edit($user){
-       // dump($user);
-//
-//       $conditon=array();
-//       foreach($user as $u){
-//           $conditon['id']=$u->id;
-//
-//            $conditon['name']=$u->name;
-//            $conditon['password']=$u->password;
-//            $conditon['status']=$u->status;
-//            $conditon['oa_name']=$u->oa_name;
-//            $conditon['oa_password']=$u->oa_password;
-//
-//           $reuslt=$this->where($conditon)->select();
-//           $reuslt->save();
-//        }
-
-
-
-        $conditon=array();
-        $conditon['id']=95;
-     return   $reuslt=self::get();
-//        echo $reuslt['name'];
-       // dump($reuslt);
-       // $conditon['status']='444';
-//        $reuslt->update($conditon,$conditon['id']);
-//        dump($reuslt);
-        //dump($reuslt=$this->where($conditon)->select());
-
+    /**
+     * 删除用户
+     * @param $user 删除的用户*（对象数组）
+     * @return 成功返回 1
+     */
+    public function deleteUser($user) {
+        try {
+            foreach ($user as $u) {
+                $this->where('id=' . $u->id)->delete();
+            }
+            echo "1";
+        } catch (\Exception $e) {
+            echo 'Caught exception: ', $e->getMessage(), "\n";;
+        }
     }
 
 }

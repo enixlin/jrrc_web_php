@@ -3,15 +3,14 @@
 namespace app\Controller;
 
 
+use app\model\UserModel as User;
 use think\Controller;
 use think\Request;
-use app\model\UserModel as User;
 
 
-class UserController extends Controller
-{
+class UserController extends Controller {
 
-//    protected $request;
+    //    protected $request;
     protected $user;
 
 
@@ -21,8 +20,7 @@ class UserController extends Controller
      * @param User $user //构造函数时自动注入User实例
      * @param Role $role //构造函数时自动注入Role实例
      */
-    public function __construct(User $user)
-    {
+    public function __construct(User $user) {
 
         $this->user = $user;
 
@@ -34,8 +32,7 @@ class UserController extends Controller
      *
      * @return \think\Response
      */
-    public function index()
-    {
+    public function index() {
         //
     }
 
@@ -44,38 +41,22 @@ class UserController extends Controller
      *
      * @return \think\Response
      */
-    public function create()
-    {
+    public function addUser() {
         $request = Request::instance();
-        dump($request->getInput());
-        $user['name']=$request->param('name');
-        $user['password']=$request->param('password');
-        $user['status']=1;
-        $this->User->addUser($user);
-    }
+        // dump($request);
+        $user = array();
+        $user['name'] = $request->param('name');
+        $user['password'] = $request->param('password');
+        $user['status'] = $request->param('status');
+        $user['oa_name'] = $request->param('oa_name');
+        $user['oa_password'] = $request->param('oa_password');
 
-    /**
-     * 保存新建的资源
-     *
-     * @param  \think\Request $request
-     * @return \think\Response
-     */
-    public function save(Request $request)
-    {
-        //
-    }
-
-    /**
-     * 显示指定的资源
-     *
-     * @param  int $id
-     * @return \think\Response
-     */
-    public function read($id)
-    {
+        $this->user->addUser($user);
 
 
     }
+
+
 
     /**
      * 显示编辑资源表单页.
@@ -83,76 +64,32 @@ class UserController extends Controller
      * @param  int $id
      * @return \think\Response
      */
-    public function edit()
-    {
-        //
-//        $request = Request::instance();
-//        $user=json_decode($request->getInput());
-//        //dump($user);
-//        $condition=array();
-//        foreach($user as $u){
-//            array_push($condition,$u);
-//        }
-//        //dump($condition);
-      //  $user=User::getAllUsers();
-
-       // dump($this->user->getAllUsers());
-
-        dump(model("user")->getAllUsers());
-
-
-
-
+    public function updateUser() {
+        $request = Request::instance();
+        $user = json_decode($request->getInput());
+        $this->user->updateUser($user);
 
     }
 
-    /**
-     * 保存更新的资源
-     *
-     * @param  \think\Request $request
-     * @param  int $id
-     * @return \think\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
 
-    /**
-     * 删除指定资源
-     *
-     * @param  int $id
-     * @return \think\Response
-     */
-    public function delete($id)
-    {
-        //
-    }
+
 
 
     /**
      * 查询所有的用户
      */
-    public function getAllUsers()
-    {
-        $user=new UserModel();
-       $result = $user->getAllUsers();
-        return json($result);
+    public function getAllUsers() {
+        $user = $this->user->order("id desc")->select();
+        return json($user);
 
     }
 
-    /*
-     * 添加用户
-     * */
-    public function addUser()
-    {
+
+    //删除用户
+    public function deleteUser() {
         $request = Request::instance();
-        $user=$request->param();
-        $this->User->addRule($user);
-    }
-
-
-    public function getUserRole($UserId){
-        return $this->User->getUserRole($UserId);
+        $user = json_decode($request->getInput());
+       // dump($user);
+        $this->user->deleteUser($user);
     }
 }
