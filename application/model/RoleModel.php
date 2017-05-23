@@ -16,12 +16,10 @@ class RoleModel extends Model {
     //添加角色
     public function addRole($role) {
         try {
-            foreach ($role as $r) {
-                $this->insert($r);
-            }
+            $this->create($role);
             echo "1";
         } catch (\Exception $e) {
-            echo 'Caught exception: ', $e->getMessage(), "\n";
+            echo 'Caught exception: ', $e->getMessage(), "\n";;
         }
 
     }
@@ -43,11 +41,11 @@ class RoleModel extends Model {
     public function deleteRole($role) {
         try {
             foreach ($role as $r) {
-                $this->delete($r);
+                $this->where('id='.$r->id)->delete();
             }
             echo "1";
-        } catch (Exception $e) {
-            echo 'Caught exception: ', $e->getMessage(), "\n";
+        } catch (\Exception $e) {
+            echo 'Caught exception: ', $e->getMessage(), "\n";;
         }
     }
 
