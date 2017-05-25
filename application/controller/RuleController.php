@@ -12,14 +12,16 @@ use app\model\RuleModel as Rule;
 use think\Controller;
 use think\Request;
 
+class RuleController extends Controller
+{
 
-class RuleController extends Controller {
-
-    public function __construct(Rule $rule) {
+    public function __construct(Rule $rule)
+    {
         $this->rule = $rule;
     }
 
-    public function addRule() {
+    public function addRule()
+    {
         $request = Request::instance();
         $rule = array();
         $rule['id'] =  $request->param('id');
@@ -31,31 +33,32 @@ class RuleController extends Controller {
         $rule['status'] = $request->param('status');
         $rule['js_file'] = $request->param('js_file');
         $this->rule->addRule($rule);
-
     }
 
-    public function updateRule() {
 
+    public function updateRule()
+    {
         $request = Request::instance();
         $rule = json_decode($request->getInput());
        // dump($rule);
         $this->rule->updateRule($rule);
     }
 
-    public function deleteRule() {
+    public function deleteRule()
+    {
         $request = Request::instance();
         $rule = json_decode($request->getInput());
         $this->rule->deleteRule($rule);
     }
 
-    public function getAllRule() {
+    public function getAllRule()
+    {
         return $result = $this->rule->all();
     }
 
 
-    public function makeRuleTree($node) {
-       return $this->rule->makeRuleTree($node);
-
+    public function makeRuleTree($node)
+    {
+        return $this->rule->makeRuleTree($node);
     }
-
 }

@@ -1,0 +1,2417 @@
+[ 2017-05-16T09:56:21+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494899779537&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494899779537&page=1&start=0&limit=25 [运行时间：2.020186s][吞吐率：0.50req/s] [内存消耗：2,402.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494899779537',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.001537s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.015133s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.000694s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T09:56:45+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494899804178&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494899804178&page=1&start=0&limit=25 [运行时间：1.049492s][吞吐率：0.95req/s] [内存消耗：2,402.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494899804178',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003617s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.011208s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.000696s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T09:59:54+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494899992651&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494899992651&page=1&start=0&limit=25 [运行时间：1.728989s][吞吐率：0.58req/s] [内存消耗：2,402.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494899992651',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004830s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.019701s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.000777s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:00:28+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494900027542&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494900027542&page=1&start=0&limit=25 [运行时间：1.102938s][吞吐率：0.91req/s] [内存消耗：2,402.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494900027542',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015236s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.041593s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001250s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:07:32+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494900451224&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494900451224&page=1&start=0&limit=25 [运行时间：1.096215s][吞吐率：0.91req/s] [内存消耗：2,402.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494900451224',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015399s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.033597s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001737s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:18:04+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901083349&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901083349&page=1&start=0&limit=25 [运行时间：1.100253s][吞吐率：0.91req/s] [内存消耗：2,402.23kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901083349',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005809s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.044177s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001697s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:18:20+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.166809s][吞吐率：5.99req/s] [内存消耗：2,368.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:19:42+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.029368s][吞吐率：34.05req/s] [内存消耗：2,365.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:21:09+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901268791&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901268791&page=1&start=0&limit=25 [运行时间：1.099703s][吞吐率：0.91req/s] [内存消耗：2,403.63kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901268791',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004482s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.049538s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001222s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:22:25+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901344847&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901344847&page=1&start=0&limit=25 [运行时间：1.107882s][吞吐率：0.90req/s] [内存消耗：2,403.63kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901344847',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015233s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.043270s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001644s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:24:21+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901460749&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901460749&page=1&start=0&limit=25 [运行时间：1.109301s][吞吐率：0.90req/s] [内存消耗：2,403.63kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901460749',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006334s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.048638s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001622s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:24:27+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.028620s][吞吐率：34.94req/s] [内存消耗：2,365.41kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:25:30+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.029912s][吞吐率：33.43req/s] [内存消耗：2,365.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:26:25+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.051375s][吞吐率：19.46req/s] [内存消耗：2,365.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:26:37+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901596355&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901596355&page=1&start=0&limit=25 [运行时间：1.085118s][吞吐率：0.92req/s] [内存消耗：2,403.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901596355',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004327s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.036092s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001241s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:26:40+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.029975s][吞吐率：33.36req/s] [内存消耗：2,365.81kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '292',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:27:10+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.031501s][吞吐率：31.74req/s] [内存消耗：2,366.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '292',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T10:30:24+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901822973&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901822973&page=1&start=0&limit=25 [运行时间：1.107494s][吞吐率：0.90req/s] [内存消耗：2,405.14kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901822973',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004064s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.054498s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001452s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:30:30+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：1.109734s][吞吐率：0.90req/s] [内存消耗：2,384.83kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '292',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004228s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.044586s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:31:56+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：0.050108s][吞吐率：19.96req/s] [内存消耗：2,388.45kb] [文件加载：51]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '292',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Cannot use object of type stdClass as array[D:\projects\WWW\jrrc_web_php\application\model\UserModel.php:74]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:32:40+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：1.066282s][吞吐率：0.94req/s] [内存消耗：2,385.94kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '292',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013071s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.017934s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6689 ) [ RunTime:0.000613s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6688 ) [ RunTime:0.000383s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:32:42+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901961805&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901961805&page=1&start=0&limit=25 [运行时间：1.096737s][吞吐率：0.91req/s] [内存消耗：2,404.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901961805',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004756s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.044637s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001280s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:32:52+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：1.105595s][吞吐率：0.90req/s] [内存消耗：2,386.31kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '429',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015301s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.051382s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6687 ) [ RunTime:0.000716s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6686 ) [ RunTime:0.000528s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6685 ) [ RunTime:0.000531s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:32:55+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901974383&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901974383&page=1&start=0&limit=25 [运行时间：1.063153s][吞吐率：0.94req/s] [内存消耗：2,403.95kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901974383',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003198s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.023478s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.000865s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:33:06+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：1.091436s][吞吐率：0.92req/s] [内存消耗：2,386.49kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '552',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003221s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.044283s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6684 ) [ RunTime:0.001081s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6683 ) [ RunTime:0.000561s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6682 ) [ RunTime:0.000650s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6681 ) [ RunTime:0.000556s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:33:09+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901988514&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901988514&page=1&start=0&limit=25 [运行时间：1.092706s][吞吐率：0.92req/s] [内存消耗：2,402.68kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901988514',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004782s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.038373s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001264s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:33:16+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：1.093300s][吞吐率：0.91req/s] [内存消耗：2,386.70kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '565',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004029s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.048861s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6676 ) [ RunTime:0.000847s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6675 ) [ RunTime:0.000723s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6674 ) [ RunTime:0.000726s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6673 ) [ RunTime:0.000736s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6672 ) [ RunTime:0.000733s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:33:18+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494901997771&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494901997771&page=1&start=0&limit=25 [运行时间：1.098094s][吞吐率：0.91req/s] [内存消耗：2,401.36kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494901997771',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005433s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.042807s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001651s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:55:58+08:00 ] ::1 ::1 POST /jrrc_web_php/User/create
+[ log ] localhost/jrrc_web_php/User/create [运行时间：1.104132s][吞吐率：0.91req/s] [内存消耗：2,390.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '106',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'name' => '林振焕',
+  'password' => 'enixlin1981',
+  'status' => '1',
+  'oa_name' => 'linzhenhuan',
+  'oa_password' => 'linzhenhuan',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->create[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014310s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.046936s ]
+[ sql ] [ SQL ] INSERT INTO `jrrc_user` (`name` , `password` , `status` , `oa_name` , `oa_password`) VALUES ('林振焕' , 'enixlin1981' , 1 , 'linzhenhuan' , 'linzhenhuan') [ RunTime:0.001425s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T10:56:01+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494903360028&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494903360028&page=1&start=0&limit=25 [运行时间：1.110714s][吞吐率：0.90req/s] [内存消耗：2,401.81kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494903360028',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005357s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.051583s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.002341s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:08:49+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/logout
+[ log ] localhost/jrrc_web_php/Login/logout [运行时间：0.204481s][吞吐率：4.89req/s] [内存消耗：2,555.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->logout[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T11:08:49+08:00 ] ::1 ::1 GET /jrrc_web_php/Login/login
+[ log ] localhost/jrrc_web_php/Login/login [运行时间：0.229498s][吞吐率：4.36req/s] [内存消耗：2,694.52kb] [文件加载：54]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ VIEW ] D:\projects\WWW\jrrc_web_php/application/view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T11:08:53+08:00 ] ::1 ::1 GET /jrrc_web_php/Login/getAllUsersName?_dc=1494904132505&query=&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/Login/getAllUsersName?_dc=1494904132505&query=&page=1&start=0&limit=25 [运行时间：1.094366s][吞吐率：0.91req/s] [内存消耗：2,615.58kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'getAllUsersName',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904132505',
+  'query' => '',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->getAllUsersName[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.016424s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.033198s ]
+[ sql ] [ SQL ] SELECT `name`,`id` FROM `jrrc_user` [ RunTime:0.000782s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:03+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.076334s][吞吐率：0.93req/s] [内存消耗：2,617.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin1981',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003940s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.032376s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.000751s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:11+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.088687s][吞吐率：0.92req/s] [内存消耗：2,617.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015731s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.037813s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.000756s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:13+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.068908s][吞吐率：0.94req/s] [内存消耗：2,617.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013684s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.021187s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.000697s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:15+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.103689s][吞吐率：0.91req/s] [内存消耗：2,617.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.015101s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.037749s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.000739s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:16+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.083566s][吞吐率：0.92req/s] [内存消耗：2,617.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006399s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.040754s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.001051s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:25+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.089691s][吞吐率：0.92req/s] [内存消耗：2,617.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003118s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.037006s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.000834s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:09:46+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.081259s][吞吐率：0.92req/s] [内存消耗：2,617.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004395s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.039739s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` WHERE  `id` = 125 LIMIT 1 [ RunTime:0.000891s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:34+08:00 ] ::1 ::1 POST /jrrc_web_php/Login/handle_login
+[ log ] localhost/jrrc_web_php/Login/handle_login [运行时间：1.058291s][吞吐率：0.94req/s] [内存消耗：2,621.41kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Login',
+    2 => 'handle_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '22',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'id' => '95',
+  'password' => 'enixlin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\LoginController->handle_login[ D:\projects\WWW\jrrc_web_php\application\controller\LoginController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002556s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.019883s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` [ RunTime:0.000577s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:34+08:00 ] ::1 ::1 GET /jrrc_web_php/Main/index
+[ log ] localhost/jrrc_web_php/Main/index [运行时间：0.078108s][吞吐率：12.80req/s] [内存消耗：1,633.99kb] [文件加载：44]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Main',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'referer' => 'http://localhost/jrrc_web_php/Login/login',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\controller\MainController->index[ D:\projects\WWW\jrrc_web_php\application\controller\MainController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\projects\WWW\jrrc_web_php/application/view\main\index.html [ array (
+  0 => 'name',
+  1 => 'ruler',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:36+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904295581&node=root
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904295581&node=root [运行时间：1.183173s][吞吐率：0.85req/s] [内存消耗：2,627.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904295581',
+  'node' => 'root',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004560s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.077026s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.001352s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:37+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296812&node=6
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296812&node=6 [运行时间：1.147499s][吞吐率：0.87req/s] [内存消耗：2,627.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296812',
+  'node' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004289s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.070577s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000570s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:37+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296824&node=1
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296824&node=1 [运行时间：1.126963s][吞吐率：0.89req/s] [内存消耗：2,627.72kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296824',
+  'node' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013252s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.041537s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000561s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:37+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296816&node=4
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296816&node=4 [运行时间：1.150211s][吞吐率：0.87req/s] [内存消耗：2,627.73kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296816',
+  'node' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004229s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.074182s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000521s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:37+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296818&node=3
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296818&node=3 [运行时间：1.146489s][吞吐率：0.87req/s] [内存消耗：2,627.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296818',
+  'node' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.008005s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.053642s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000543s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:37+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296814&node=5
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296814&node=5 [运行时间：1.166470s][吞吐率：0.86req/s] [内存消耗：2,627.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296814',
+  'node' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.006552s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.076405s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000624s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:38+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296821&node=2
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296821&node=2 [运行时间：1.175813s][吞吐率：0.85req/s] [内存消耗：2,627.72kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296821',
+  'node' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.009770s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.085988s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000530s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:39+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296828&node=8
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296828&node=8 [运行时间：1.081855s][吞吐率：0.92req/s] [内存消耗：2,627.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296828',
+  'node' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013548s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.014343s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000456s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:39+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904296826&node=7
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904296826&node=7 [运行时间：1.085478s][吞吐率：0.92req/s] [内存消耗：2,627.70kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904296826',
+  'node' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002122s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.023513s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000546s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:39+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/getAllRules?_dc=1494904298081&node=21
+[ log ] localhost/jrrc_web_php/Rule/getAllRules?_dc=1494904298081&node=21 [运行时间：1.057689s][吞吐率：0.95req/s] [内存消耗：2,627.79kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'getAllRules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904298081',
+  'node' => '21',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->getAllRules[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.012288s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.007347s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000522s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:41+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904300211&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904300211&page=1&start=0&limit=25 [运行时间：1.077056s][吞吐率：0.93req/s] [内存消耗：2,395.34kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904300211',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005537s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.034325s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.000907s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:45+08:00 ] ::1 ::1 POST /jrrc_web_php/User/updateUser
+[ log ] localhost/jrrc_web_php/User/updateUser [运行时间：1.205505s][吞吐率：0.83req/s] [内存消耗：2,471.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'updateUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '1405',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->updateUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004629s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.042191s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='林振焕',`password`='enixlin1981',`status`=1,`oa_name`='linzhenhuan',`oa_password`='linzhenhuan'  WHERE  `id` = 6690 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='谭锦传',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 144 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='陈嘉乐',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 143 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='利永辉',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 142 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='黄艾猛',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 141 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='谢赛特',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 140 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='赵春光',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 139 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='甄翠仪',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 138 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='区筱莹',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 137 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='叶燕玲',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 136 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='周颖怡',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 127 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='罗嘉琳',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 126 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='淦小明',`password`='a',`status`=1,`oa_name`='',`oa_password`=''  WHERE  `id` = 125 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='guest',`password`='1',`status`=2,`oa_name`='guest11233',`oa_password`=''  WHERE  `id` = 124 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='管理员',`password`='enixlin',`status`=127,`oa_name`='linzhenhuan',`oa_password`='39453945lyp'  WHERE  `id` = 95 [ RunTime:0.000229s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:48+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904307280&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904307280&page=1&start=0&limit=25 [运行时间：1.089276s][吞吐率：0.92req/s] [内存消耗：2,395.34kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904307280',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005120s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.032945s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.003636s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:48+08:00 ] ::1 ::1 POST /jrrc_web_php/User/updateUser
+[ log ] localhost/jrrc_web_php/User/updateUser [运行时间：1.097214s][吞吐率：0.91req/s] [内存消耗：2,471.48kb] [文件加载：51]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'updateUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '1405',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->updateUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.007579s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.031555s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='林振焕',`password`='enixlin1981',`status`=1,`oa_name`='linzhenhuan',`oa_password`='linzhenhuan'  WHERE  `id` = 6690 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='谭锦传',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 144 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='陈嘉乐',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 143 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='利永辉',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 142 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='黄艾猛',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 141 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='谢赛特',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 140 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='赵春光',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 139 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='甄翠仪',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 138 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='区筱莹',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 137 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='叶燕玲',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 136 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='周颖怡',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 127 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='罗嘉琳',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 126 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='淦小明',`password`='a',`status`=1,`oa_name`='',`oa_password`=''  WHERE  `id` = 125 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='guest',`password`='1',`status`=2,`oa_name`='guest11233',`oa_password`=''  WHERE  `id` = 124 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='管理员',`password`='enixlin',`status`=127,`oa_name`='linzhenhuan',`oa_password`='39453945lyp'  WHERE  `id` = 95 [ RunTime:0.000177s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:50+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904309581&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904309581&page=1&start=0&limit=25 [运行时间：1.111519s][吞吐率：0.90req/s] [内存消耗：2,395.34kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904309581',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003851s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.045842s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001217s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:55+08:00 ] ::1 ::1 POST /jrrc_web_php/User/updateUser
+[ log ] localhost/jrrc_web_php/User/updateUser [运行时间：1.101161s][吞吐率：0.91req/s] [内存消耗：2,471.51kb] [文件加载：51]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'updateUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '1404',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->updateUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003507s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.043291s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='林振焕',`password`='enixlin1981',`status`=1,`oa_name`='linzhenhuan1',`oa_password`='linzhenhuan'  WHERE  `id` = 6690 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='谭锦传',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 144 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='陈嘉乐',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 143 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='利永辉',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 142 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='黄艾猛',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 141 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='谢赛特',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 140 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='赵春光',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 139 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='甄翠仪',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 138 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='区筱莹',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 137 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='叶燕玲',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 136 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='周颖怡',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 127 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='罗嘉琳',`password`='a',`status`=1,`oa_name`=NULL,`oa_password`=NULL  WHERE  `id` = 126 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='淦小明',`password`='a',`status`=1,`oa_name`='',`oa_password`=''  WHERE  `id` = 125 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='guest',`password`='1',`status`=2,`oa_name`='guest11233',`oa_password`=''  WHERE  `id` = 124 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] UPDATE `jrrc_user`  SET `name`='管理员',`password`='enixlin',`status`=127,`oa_name`='linzhenhuan',`oa_password`='39453945lyp'  WHERE  `id` = 95 [ RunTime:0.000243s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:11:58+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904317439&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904317439&page=1&start=0&limit=25 [运行时间：1.105923s][吞吐率：0.90req/s] [内存消耗：2,395.34kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904317439',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013245s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.050387s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.000894s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:14:40+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904479056&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904479056&page=1&start=0&limit=25 [运行时间：1.104825s][吞吐率：0.91req/s] [内存消耗：2,395.28kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904479056',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003221s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.052699s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001063s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:14:59+08:00 ] ::1 ::1 POST /jrrc_web_php/User/addUser
+[ log ] localhost/jrrc_web_php/User/addUser [运行时间：1.054493s][吞吐率：0.95req/s] [内存消耗：2,384.40kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'addUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  'name' => '林振焕2',
+  'password' => 'enixlin1981',
+  'status' => '1',
+  'oa_name' => '林振焕',
+  'oa_password' => '林振焕',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->addUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.002557s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.020193s ]
+[ sql ] [ SQL ] INSERT INTO `jrrc_user` (`name` , `password` , `status` , `oa_name` , `oa_password`) VALUES ('林振焕2' , 'enixlin1981' , 1 , '林振焕' , '林振焕') [ RunTime:0.000633s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:15:02+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904500907&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904500907&page=1&start=0&limit=25 [运行时间：1.092015s][吞吐率：0.92req/s] [内存消耗：2,395.58kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904500907',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.004565s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.041313s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001780s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:15:09+08:00 ] ::1 ::1 POST /jrrc_web_php/User/deleteUser
+[ log ] localhost/jrrc_web_php/User/deleteUser [运行时间：1.083952s][吞吐率：0.92req/s] [内存消耗：2,379.14kb] [文件加载：48]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'deleteUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '131',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->deleteUser[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014429s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.034758s ]
+[ sql ] [ SQL ] DELETE FROM `jrrc_user`    WHERE  (  id=6691 ) [ RunTime:0.000744s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:15:12+08:00 ] ::1 ::1 GET /jrrc_web_php/User/getAllUsers?_dc=1494904511129&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/User/getAllUsers?_dc=1494904511129&page=1&start=0&limit=25 [运行时间：1.099659s][吞吐率：0.91req/s] [内存消耗：2,395.28kb] [文件加载：49]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'getAllUsers',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904511129',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\Controller\UserController->getAllUsers[ D:\projects\WWW\jrrc_web_php\application\controller\UserController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.014245s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_user` [ RunTime:0.038997s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_user` ORDER BY id desc [ RunTime:0.001192s ]
+
+---------------------------------------------------------------
+[ 2017-05-16T11:15:21+08:00 ] ::1 ::1 GET /jrrc_web_php/Rule/showRuleTable?_dc=1494904520286&page=1&start=0&limit=25
+[ log ] localhost/jrrc_web_php/Rule/showRuleTable?_dc=1494904520286&page=1&start=0&limit=25 [运行时间：1.096693s][吞吐率：0.91req/s] [内存消耗：2,628.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\projects\WWW\jrrc_web_php\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Rule',
+    2 => 'showRuleTable',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/jrrc_web_php/Main/index',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=drojb9q4b3f40jr2aihlm3iu41; _ga=GA1.1.443852450.1494767235; _gid=GA1.1.289720690.1494852851',
+)
+[ info ] [ PARAM ] array (
+  '_dc' => '1494904520286',
+  'page' => '1',
+  'start' => '0',
+  'limit' => '25',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\controller\RuleController->showRuleTable[ D:\projects\WWW\jrrc_web_php\application\controller\RuleController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.005043s ] mysql:dbname=jrrc;host=localhost;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jrrc_rule` [ RunTime:0.041278s ]
+[ sql ] [ SQL ] SELECT * FROM `jrrc_rule` [ RunTime:0.000916s ]
+
+---------------------------------------------------------------

@@ -26,7 +26,7 @@ class RuleModel extends Model {
 
     //更新角色
     public function updateRule($rule) {
-       // dump($rule);
+        // dump($rule);
         try {
             foreach ($rule as $r) {
                 $this->update($r);
@@ -42,7 +42,7 @@ class RuleModel extends Model {
     public function deleteRule($role) {
         try {
             foreach ($rule as $r) {
-                $this->where('id='.$r->id)->delete();
+                $this->where('id=' . $r->id)->delete();
             }
             echo "1";
         } catch (\Exception $e) {
@@ -56,20 +56,21 @@ class RuleModel extends Model {
     }
 
 
-    public function makeRuleTree($node){
+    public function makeRuleTree($node) {
         $result = $this->getAllRule();
         $list = array();
         foreach ($result as $key => $r) {
-//             fields: ['id', 'controller', 'rule_name', 'p_id', 'leaf', 'js_file'],
-            $list[$key]['id'] = $r['id'];
-            $list[$key]['controller'] = $r['controller'];
-            $list[$key]['rule_name'] = $r['rule_name'];
-            $list[$key]['p_id'] = $r['p_id'];
-            $list[$key]['js_file']=$r['js_file'];
-            $list[$key]['child'] = array();
+            //             fields: ['id', 'controller', 'rule_name', 'p_id', 'leaf', 'js_file'],
+            $list[$key]['id']           = $r['id'];
+            $list[$key]['rule_id']      = $r['rule_id'];
+            $list[$key]['controller']   = $r['controller'];
+            $list[$key]['rule_name']    = $r['rule_name'];
+            $list[$key]['p_id']         = $r['p_id'];
+            $list[$key]['js_file']      = $r['js_file'];
+            $list[$key]['child']        = array();
         }
 
-        $pk = 'id';
+        $pk = 'rule_id';
         $pid = 'p_id';
         $child = 'child';
         $root = $node;
@@ -92,10 +93,9 @@ class RuleModel extends Model {
                 if ($root == $parentId) {
                     $tree[] =& $list[$key];
                 } else {
-
                     if (isset($refer[$parentId])) {
                         $parent =& $refer[$parentId];
-                        $parent[$child][] =&$list[$key];
+                        $parent[$child][] =& $list[$key];
                     }
 
 
@@ -105,7 +105,7 @@ class RuleModel extends Model {
 
         foreach ($refer as $key => $data) {
 
-            if (count($data['child'],1)==0) {
+            if (count($data['child'], 1) == 0) {
                 $refer[$key]["leaf"] = true;
             } else {
                 $refer[$key]["leaf"] = false;
