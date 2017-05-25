@@ -23,7 +23,7 @@ class MainController extends Controller
         return $this->fetch('index');
     }
 
-
+  
     public function getAuthor()
     {
 
